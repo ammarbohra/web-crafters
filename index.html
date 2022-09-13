@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Crafters</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Welcome to Web Crafters</h1>
+      </header>
+      <main>
+        <p>Enter your details below</p>
+        <form action="">
+          <div class="form-control">
+            <input required type="text" id="username" placeholder="Enter your username or email" />
+            <label for="username" id="usernameLabel">Username/Email</label>
+          </div>
+          <div class="form-control">
+            <input required type="password" id="password" placeholder="Enter your password" />
+            <label for="password" id="passwordLabel">Password</label>
+          </div>
+
+          <div class="text-center">
+            <button class="submit"><span>Login</span><strong class="arrow">></strong></button>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <button disabled>Login</button>
+        <button href="#" type="button" class="toggle"><span>Signup</span></button>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
